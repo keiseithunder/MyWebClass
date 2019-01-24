@@ -1,0 +1,15 @@
+TCP/IP (Transmission control protocol over(/) internet protocol) for internet
+
+layerd Architecture
+    -Application(logical layer)(HTTP) User here, High abstraction level
+    -Transport(logical layer)(TCP conection-oriented, reliable) establish the route : 3-way handchake
+    -internet(logical layer)(IP conectionless, unreliable) maintain address and how to get there
+    (to connect other network need ip address เหมือนจดหมายส่งไปไม่รู้ว่าได้รับหรือไม่)) use package to carry message(no point-to-point conection)
+    -Datalink(logical layer)
+    -Physical(Hardware layer) low abstraction level
+
+    IP address : V4(32 bits),V6(128 bits)
+
+URL <---------> IP address
+protocol://"address"/"resource"(path can be specified folder/folder2/file)
+address= "domain name" or "ip address":port#(port number 80 by default) 
