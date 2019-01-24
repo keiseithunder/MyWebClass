@@ -13,3 +13,4 @@ layerd Architecture
 URL <---------> IP address
 protocol://"address"/"resource"(path can be specified folder/folder2/file)
 address= "domain name" or "ip address":port#(port number 80 by default) 
+DHCP
